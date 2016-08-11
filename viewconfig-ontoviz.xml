@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="1.0">
+        <CNode>
+            <Component label="Hello World View Component">
+                <Property id="pluginId" value="ontoviz.HelloWorldComponent"/>
+            </Component>
+        </CNode>
+    </VSNode>
+</layout>
