@@ -5,9 +5,11 @@ import javax.swing.JPanel;
 import java.awt.BorderLayout;
 import org.apache.log4j.Logger;
 import org.semanticweb.owlapi.model.OWLClass;
-import org.protege.editor.owl.ui.view.AbstractOWLViewComponent;
 import org.protege.editor.owl.ui.view.cls.AbstractOWLClassViewComponent;
 
+/**
+ * Plugin extension point for the Ontoviz imports view.
+ **/
 
 public class OntovizImportView extends AbstractOWLClassViewComponent{
   private static final Logger log = Logger.getLogger(OntovizImportView.class);
@@ -30,6 +32,6 @@ public class OntovizImportView extends AbstractOWLClassViewComponent{
   @Override
 	public void disposeView() {
 		// TODO Auto-generated method stub
-
+    log.info("OntovizImportView Component disposed");
 	}
 }
