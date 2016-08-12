@@ -2,10 +2,11 @@
 <?eclipse version="3.0"?>
 
 <plugin>
-  <extension id="HelloWorldComponent"
+  <extension id="OntovizViewComponent"
               point="org.protege.editor.core.application.ViewComponent">
       <label value="OntoViz View"/>
-      <class value="ontoviz.test.HelloWorldComponent"/>
+      <class value="ontoviz.OntovizImportView"/>
+      <headerColor value="@org.protege.classcolor"/>
       <category value="@org.protege.ontologycategory"/>
    </extension>
 
